@@ -4,7 +4,7 @@
     "type": "library",
     "keywords": ["cars24","library","clevertap"],
     "homepage": "https://cars24.com/",
-    "license": "MIT",
+    "license": "MIT License",
     "authors": [
         {
             "name": "Sandeepa Rajoriya",
@@ -12,7 +12,8 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+	"guzzlehttp/guzzle": "^6.2"
     },
     "autoload": {
         "psr-4": {
@@ -20,3 +21,4 @@
         }
     }
 }
+

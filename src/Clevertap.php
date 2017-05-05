@@ -2,11 +2,11 @@
 namespace CleverTap;
 
 /**
- * CleverTap PHP (unofficial) - Push events from your PHP application
+ * CleverTap cars24 - Push events from your PHP application
  *
- * @author Saneem <hello@saneem.me>
+ * @author Sandeepa Rajoriya <sandeepa.rajoriya@cars24.com>
  * @license MIT License
- * @version 0.1
+ * @version 1.2.0
  *
  */
 use Yii;
@@ -21,7 +21,6 @@ class Clevertap
 
     /**
      * Push the user's profile
-     * More details at https://support.clevertap.com/docs/api/working-with-user-profiles.html#uploading-user-profiles
      *
      * @param string $identity Identity to recognize a user uniquely.
      * @param array $data This will be pushed as the user's info.
@@ -77,7 +76,6 @@ class Clevertap
 
     /**
      * Push an event
-     * More details at https://support.clevertap.com/docs/api/working-with-events.html#upload-events
      *
      * @param string $event_name Name of the event
      * @param array $event_data Any information that has to be pushed with the event
